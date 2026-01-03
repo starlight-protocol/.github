@@ -1,4 +1,3 @@
-# .github
 
 # ✨ Starlight Protocol
 
