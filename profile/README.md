@@ -9,8 +9,8 @@
 </p>
 
 <p align="center">
-  <a href="CHANGELOG.md"><img src="https://img.shields.io/badge/version-3.0.3-blue.svg" alt="Version"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License"></a>
+  <a href="https://github.com/starlight-protocol/starlight/blob/main/CHANGELOG.md"><img src="https://img.shields.io/badge/version-3.0.5-blue.svg" alt="Version"></a>
+  <a href="https://github.com/starlight-protocol/starlight/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License"></a>
   <a href="https://github.com/starlight-protocol/starlight/actions/workflows/starlight_ci.yml"><img src="https://github.com/starlight-protocol/starlight/actions/workflows/starlight_ci.yml/badge.svg" alt="CI"></a>
   <a href="https://nodejs.org"><img src="https://img.shields.io/badge/node-%3E%3D18-brightgreen.svg" alt="Node"></a>
   <a href="https://python.org"><img src="https://img.shields.io/badge/python-%3E%3D3.9-blue.svg" alt="Python"></a>
@@ -18,9 +18,9 @@
 
 <p align="center">
   <a href="#-quick-start">Quick Start</a> •
-  <a href="spec/STARLIGHT_PROTOCOL_SPEC_v1.0.0.md">Specification</a> •
-  <a href="docs/book/THE_STARLIGHT_PROTOCOL_BOOK.md">Book</a> •
-  <a href="docs/roadmap.md">Roadmap</a>
+  <a href="https://github.com/starlight-protocol/starlight/blob/main/spec/STARLIGHT_PROTOCOL_SPEC_v1.0.0.md">Specification</a> •
+  <a href="https://github.com/starlight-protocol/starlight/blob/main/docs/book/THE_STARLIGHT_PROTOCOL_BOOK.md">Book</a> •
+  <a href="https://github.com/starlight-protocol/starlight/blob/main/docs/roadmap.md">Roadmap</a>
 </p>
 
 ---
@@ -130,7 +130,7 @@ HUB_DEVICE="Pixel 7" node bin/starlight.js test/intent_saucedemo.js
 }
 ```
 
-**Verified:** Full 12-step SauceDemo checkout flow passes autonomously. See [test/intent_saucedemo.js](test/intent_saucedemo.js).
+**Verified:** Full 12-step SauceDemo checkout flow passes autonomously. See [test/intent_saucedemo.js](https://github.com/starlight-protocol/starlight/blob/main/test/intent_saucedemo.js).
 
 ---
 
@@ -147,7 +147,7 @@ All communication uses JSON-RPC 2.0:
 | `starlight.hijack` | Sentinel takes browser control |
 | `starlight.resume` | Sentinel releases control |
 
-📄 **[Full Specification](spec/STARLIGHT_PROTOCOL_SPEC_v1.0.0.md)**
+📄 **[Full Specification](https://github.com/starlight-protocol/starlight/blob/main/spec/STARLIGHT_PROTOCOL_SPEC_v1.0.0.md)**
 
 ---
 
@@ -244,16 +244,16 @@ node test/run_all_tests.js
 
 | Document | Description |
 |----------|-------------|
-| [🔒 Security Guide](docs/SECURITY_GUIDE.md) | Security architecture & best practices |
-| [📖 Book](docs/book/THE_STARLIGHT_PROTOCOL_BOOK.md) | Comprehensive guide |
-| [📄 Specification](spec/STARLIGHT_PROTOCOL_SPEC_v1.0.0.md) | Formal protocol standard |
-| [📋 User Guide](docs/user_guide.md) | Getting started |
-| [⚙️ Technical Guide](docs/technical_guide.md) | SDK & configuration |
-| [🛡️ Security Configuration](docs/SECURITY_CONFIGURATION.md) | Security settings reference |
-| [📊 Compliance Guide](docs/COMPLIANCE_GUIDE.md) | GDPR/HIPAA compliance |
-| [🧪 Security Testing](docs/SECURITY_TESTING.md) | Security testing procedures |
-| [🗺️ Roadmap](docs/roadmap.md) | Future plans |
-| [📝 Changelog](CHANGELOG.md) | Version history |
+| [🔒 Security Guide](https://github.com/starlight-protocol/starlight/blob/main/docs/SECURITY_GUIDE.md) | Security architecture & best practices |
+| [📖 Book](https://github.com/starlight-protocol/starlight/blob/main/docs/book/THE_STARLIGHT_PROTOCOL_BOOK.md) | Comprehensive guide |
+| [📄 Specification](https://github.com/starlight-protocol/starlight/blob/main/spec/STARLIGHT_PROTOCOL_SPEC_v1.0.0.md) | Formal protocol standard |
+| [📋 User Guide](https://github.com/starlight-protocol/starlight/blob/main/docs/user_guide.md) | Getting started |
+| [⚙️ Technical Guide](https://github.com/starlight-protocol/starlight/blob/main/docs/technical_guide.md) | SDK & configuration |
+| [🛡️ Security Configuration](https://github.com/starlight-protocol/starlight/blob/main/docs/SECURITY_CONFIGURATION.md) | Security settings reference |
+| [📊 Compliance Guide](https://github.com/starlight-protocol/starlight/blob/main/docs/COMPLIANCE_GUIDE.md) | GDPR/HIPAA compliance |
+| [🧪 Security Testing](https://github.com/starlight-protocol/starlight/blob/main/docs/SECURITY_TESTING.md) | Security testing procedures |
+| [🗺️ Roadmap](https://github.com/starlight-protocol/starlight/blob/main/docs/roadmap.md) | Future plans |
+| [📝 Changelog](https://github.com/starlight-protocol/starlight/blob/main/CHANGELOG.md) | Version history |
 
 ---
 
@@ -295,7 +295,7 @@ Starlight Protocol includes enterprise-grade security features:
 }
 ```
 
-📄 **[Security Guide](docs/SECURITY_GUIDE.md)** - Complete security documentation
+📄 **[Security Guide](https://github.com/starlight-protocol/starlight/blob/main/docs/SECURITY_GUIDE.md)** - Complete security documentation
 
 ---
 
@@ -317,7 +317,7 @@ docker-compose up --build
 
 ## 📄 License
 
-MIT License - [LICENSE](LICENSE)
+MIT License - [LICENSE](https://github.com/starlight-protocol/starlight/blob/main/LICENSE)
 
 ---
 
