@@ -1,88 +1,15 @@
+# Starlight organization profile
 
-# ✨ Starlight Protocol
+[profile/README.md](profile/README.md) is displayed on the
+[Starlight GitHub organization page](https://github.com/starlight-protocol).
 
-**Resilient browser automation through autonomous Sentinel coordination.**
+The platform source, supported APIs, examples, and release history live in the
+[starlight repository](https://github.com/starlight-protocol/starlight).
 
----
+When the product scope or current release changes, update this profile and the organization
+name/description alongside the product README and website. Keep this profile concise and link
+to the maintained product documentation instead of copying detailed specifications here.
 
-## What is Starlight?
-
-Starlight is an open protocol for building **self-healing browser automation** systems. Instead of brittle scripts that break when the DOM changes, Starlight uses a constellation of autonomous **Sentinels** that detect and clear obstacles in real-time.
-
-### The Problem
-- 🔴 Flaky tests fail randomly due to popups, spinners, network delays
-- 🔴 Hardcoded waits slow down execution and still fail
-- 🔴 Selector changes break entire test suites
-
-### The Solution
-- ✅ **Autonomous Sentinels** handle popups, cookies, modals automatically
-- ✅ **Entropy-based stability** waits only as long as needed
-- ✅ **Self-healing** learns to clear new obstacles without code changes
-
----
-
-## Quick Start
-
-### Python SDK
-```bash
-pip install starlight-protocol
-```
-
-```python
-from starlight_protocol import SentinelBase
-
-class MySentinel(SentinelBase):
-    async def on_pre_check(self, params, msg_id):
-        # Your obstacle detection logic
-        await self.send_clear()
-
-sentinel = MySentinel()
-sentinel.run()
-```
-
----
-
-## Repositories
-
-| Repo | Description |
-|------|-------------|
-| [starlight](https://github.com/starlight-protocol/starlight) | Reference implementation (Node.js Hub + Python SDK) |
-
----
-
-## Resources
-
-- 📖 [Protocol Specification v1.0.0](https://github.com/starlight-protocol/starlight/blob/main/spec/STARLIGHT_PROTOCOL_SPEC_v1.0.0.md)
-- 📦 [Python SDK on PyPI](https://pypi.org/project/starlight-protocol/)
-- 🏆 [TCK Validator](https://github.com/starlight-protocol/starlight/tree/main/validator)
-- 📋 [Governance](https://github.com/starlight-protocol/starlight/blob/main/GOVERNANCE.md)
-
----
-
-## Architecture
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                        INTENT LAYER                             │
-│                   (Your Test Script)                            │
-└─────────────────────────────────────────────────────────────────┘
-                              │ starlight.intent
-                              ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                          HUB                                    │
-│              (Orchestrator + Browser Control)                   │
-└─────────────────────────────────────────────────────────────────┘
-        ▲                     ▲                     ▲
-        │                     │                     │
-┌───────────────┐     ┌─────────────┐     ┌─────────────┐
-│    Pulse      │     │   Janitor   │     │   Vision    │
-│  (Stability)  │     │ (Obstacles) │     │    (AI)     │
-│  Priority: 1  │     │ Priority: 5 │     │ Priority: 7 │
-└───────────────┘     └─────────────┘     └─────────────┘
-```
-
----
-
-## License
-
-MIT - Created by [Dhiraj Das](https://dhirajdas.dev)
+Before publishing, check the release link, supported Node version, quickstart commands, and all
+public links against the product repository. The current platform is a 5.x alpha; the old 1.x
+browser implementation remains historical.
